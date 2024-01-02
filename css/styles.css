@@ -809,6 +809,7 @@ form {
 .form-modal {
   width: 360px;
   flex-direction: column;
+  align-items: center;
 }
 
 .form-highlight {
@@ -918,6 +919,10 @@ form {
   fill: var(--cloud);
 }
 
+.form-input:focus + .form-icon {
+  fill: #4d5ae5;
+}
+
 .form-paragraph {
   text-align: center;
   color: var(--light-grey);
@@ -968,6 +973,7 @@ form {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  gap: 24px;
 }
 
 .subscribe-input::placeholder {
