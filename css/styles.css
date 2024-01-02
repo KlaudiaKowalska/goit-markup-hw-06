@@ -954,7 +954,8 @@ form {
 }
 
 .subscribe-label {
-  display: inline-flex;
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-input {
