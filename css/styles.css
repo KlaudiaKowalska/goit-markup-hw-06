@@ -950,10 +950,11 @@ form {
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-label {
-  display: inl1ine-flex;
+  display: inline-flex;
 }
 
 .subscribe-input {
