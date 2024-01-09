@@ -822,7 +822,7 @@ img {
   flex-direction: column;
   width: 360px;
   color: var(--light-grey);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -875,7 +875,7 @@ img {
 
 .form-link {
   color: var(--iris);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -885,10 +885,12 @@ img {
 }
 
 .form-button {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
   display: block;
   color: #fff;
   cursor: pointer;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -907,6 +909,11 @@ img {
   border: none;
 }
 
+.form-button:hover,
+.form-button:focus {
+  background-color: var(--ocean);
+}
+
 .checkbox:checked + .checkbox-label .form-span {
   background-color: var(--ocean);
   border: none;
@@ -921,7 +928,7 @@ img {
   text-align: center;
   color: var(--light-grey);
 
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -962,7 +969,7 @@ img {
   flex-shrink: 0;
   background-color: transparent;
   color: #ffffff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -992,6 +999,12 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--ocean);
 }
 
 .subscribe-icon {
